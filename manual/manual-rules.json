@@ -1,0 +1,10 @@
+{
+  "comment": [
+    "Manually confirmed app-specific skip rules (human-reviewed).",
+    "Schema: {pkg, activityIds?: [str], texts?: [str], vids?: [str], idSuffixes?: [str]}",
+    "texts/vids are CONTAINS patterns, idSuffixes are END-WITH patterns.",
+    "Every pattern must still satisfy the safety word lists in scripts/fetch_gkd.py;",
+    "the converter rejects manual rules that violate the word lists (fail-closed)."
+  ],
+  "rules": []
+}
